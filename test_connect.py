@@ -38,29 +38,3 @@ for router in routers:
     except Exception as e:
         print(f"Failed to connect to {router['host']}:{router['port']} - {e}")
 
-
-"""
-
-# Device info – replace with your router's IP, username, and password
-router = {
-    "device_type": "cisco_ios",
-    "host": "192.168.1.145",  # your router IP
-    "username": "Ryan",
-    "password": "cisco",
-}
-
-print(f"Connecting to {router['host']}...")
-
-try:
-    connection = ConnectHandler(**router)
-    print(" Connected successfully!\n")
-
-    # Run a simple show command
-    output = connection.send_command("show ip interface brief")
-    print(output)
-
-    connection.disconnect()
-    print("\n Disconnected.")
-except Exception as e:
-    print("Connection failed:", e)
-"""

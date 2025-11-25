@@ -12,21 +12,21 @@ Gateway of last resort is 10.2.46.4 to network 0.0.0.0
 
 S*    0.0.0.0/0 [1/0] via 10.2.46.4
       10.0.0.0/8 is variably subnetted, 16 subnets, 2 masks
-O        10.0.12.0/24 [110/3] via 10.2.46.4, 23:57:43, GigabitEthernet0/0
-O        10.0.13.0/24 [110/4] via 10.2.46.4, 23:57:43, GigabitEthernet0/0
-O        10.0.19.0/24 [110/4] via 10.2.46.4, 23:57:43, GigabitEthernet0/0
-O        10.0.24.0/24 [110/2] via 10.2.46.4, 23:57:43, GigabitEthernet0/0
-O        10.0.34.0/24 [110/5] via 10.2.46.4, 23:57:43, GigabitEthernet0/0
-O        10.0.84.0/24 [110/2] via 10.2.46.4, 23:57:43, GigabitEthernet0/0
-O IA     10.1.10.0/24 [110/6] via 10.2.46.4, 23:57:43, GigabitEthernet0/0
-O IA     10.1.20.0/24 [110/6] via 10.2.46.4, 23:57:43, GigabitEthernet0/0
-O IA     10.1.35.0/24 [110/5] via 10.2.46.4, 23:57:43, GigabitEthernet0/0
+O        10.0.12.0/24 [110/3] via 10.2.46.4, 00:30:28, GigabitEthernet0/0
+O        10.0.13.0/24 [110/4] via 10.2.46.4, 00:30:28, GigabitEthernet0/0
+O        10.0.19.0/24 [110/4] via 10.2.46.4, 00:30:28, GigabitEthernet0/0
+O        10.0.24.0/24 [110/2] via 10.2.46.4, 00:30:28, GigabitEthernet0/0
+O        10.0.34.0/24 [110/5] via 10.2.46.4, 00:30:28, GigabitEthernet0/0
+O        10.0.84.0/24 [110/2] via 10.2.46.4, 00:30:28, GigabitEthernet0/0
+O IA     10.1.10.0/24 [110/6] via 10.2.46.4, 00:30:28, GigabitEthernet0/0
+O IA     10.1.20.0/24 [110/6] via 10.2.46.4, 00:30:28, GigabitEthernet0/0
+O IA     10.1.35.0/24 [110/5] via 10.2.46.4, 00:30:28, GigabitEthernet0/0
 C        10.2.6.0/24 is directly connected, GigabitEthernet0/1
 L        10.2.6.1/32 is directly connected, GigabitEthernet0/1
 C        10.2.46.0/24 is directly connected, GigabitEthernet0/0
 L        10.2.46.6/32 is directly connected, GigabitEthernet0/0
-O        10.3.7.0/24 [110/2] via 10.3.67.7, 23:57:14, GigabitEthernet0/2
+O        10.3.7.0/24 [110/2] via 10.3.67.7, 00:30:38, GigabitEthernet0/2
 C        10.3.67.0/24 is directly connected, GigabitEthernet0/2
 L        10.3.67.6/32 is directly connected, GigabitEthernet0/2
       11.0.0.0/24 is subnetted, 1 subnets
-O        11.100.2.0 [110/3] via 10.2.46.4, 23:57:43, GigabitEthernet0/0
+O        11.100.2.0 [110/3] via 10.2.46.4, 00:30:28, GigabitEthernet0/0

@@ -20,21 +20,21 @@ C        10.0.13.0/24 is directly connected, GigabitEthernet1
 L        10.0.13.1/32 is directly connected, GigabitEthernet1
 C        10.0.19.0/24 is directly connected, GigabitEthernet3
 L        10.0.19.1/32 is directly connected, GigabitEthernet3
-O        10.0.24.0/24 [110/2] via 10.0.12.2, 1d01h, GigabitEthernet2
-O        10.0.34.0/24 [110/2] via 10.0.13.3, 1d01h, GigabitEthernet1
-O        10.0.84.0/24 [110/3] via 10.0.13.3, 1d01h, GigabitEthernet1
-                      [110/3] via 10.0.12.2, 1d01h, GigabitEthernet2
-O IA     10.1.10.0/24 [110/3] via 10.0.13.3, 1d01h, GigabitEthernet1
-O IA     10.1.20.0/24 [110/3] via 10.0.13.3, 1d01h, GigabitEthernet1
-O IA     10.1.35.0/24 [110/2] via 10.0.13.3, 1d01h, GigabitEthernet1
-O IA     10.2.46.0/24 [110/3] via 10.0.13.3, 1d01h, GigabitEthernet1
-                      [110/3] via 10.0.12.2, 1d01h, GigabitEthernet2
-O IA     10.3.7.0/24 [110/5] via 10.0.13.3, 1d00h, GigabitEthernet1
-                     [110/5] via 10.0.12.2, 1d00h, GigabitEthernet2
-O IA     10.3.67.0/24 [110/4] via 10.0.13.3, 1d00h, GigabitEthernet1
-                      [110/4] via 10.0.12.2, 1d00h, GigabitEthernet2
+O        10.0.24.0/24 [110/2] via 10.0.12.2, 00:31:40, GigabitEthernet2
+O        10.0.34.0/24 [110/2] via 10.0.13.3, 00:31:30, GigabitEthernet1
+O        10.0.84.0/24 [110/3] via 10.0.13.3, 00:31:29, GigabitEthernet1
+                      [110/3] via 10.0.12.2, 00:30:54, GigabitEthernet2
+O IA     10.1.10.0/24 [110/3] via 10.0.13.3, 02:37:09, GigabitEthernet1
+O IA     10.1.20.0/24 [110/3] via 10.0.13.3, 02:37:09, GigabitEthernet1
+O IA     10.1.35.0/24 [110/2] via 10.0.13.3, 02:37:09, GigabitEthernet1
+O IA     10.2.46.0/24 [110/3] via 10.0.13.3, 00:31:29, GigabitEthernet1
+                      [110/3] via 10.0.12.2, 00:30:54, GigabitEthernet2
+O IA     10.3.7.0/24 [110/5] via 10.0.13.3, 00:30:23, GigabitEthernet1
+                     [110/5] via 10.0.12.2, 00:30:23, GigabitEthernet2
+O IA     10.3.67.0/24 [110/4] via 10.0.13.3, 00:30:23, GigabitEthernet1
+                      [110/4] via 10.0.12.2, 00:30:23, GigabitEthernet2
       11.0.0.0/24 is subnetted, 1 subnets
-O        11.100.2.0 [110/2] via 10.0.12.2, 1d01h, GigabitEthernet2
+O        11.100.2.0 [110/2] via 10.0.12.2, 00:31:40, GigabitEthernet2
       192.168.1.0/24 is variably subnetted, 2 subnets, 2 masks
 C        192.168.1.0/24 is directly connected, GigabitEthernet4
 L        192.168.1.145/32 is directly connected, GigabitEthernet4
