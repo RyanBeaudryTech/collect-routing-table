@@ -69,7 +69,7 @@ R1 also forwards RADIUS traffic to the FreeRADIUS VM:
 This enables centralized AAA across all routers in the lab.
 
 ## R1 NAT Configuration
-<pre> '''text
+<pre>
 ip nat inside source static tcp 10.3.67.7 22 interface GigabitEthernet4 2227
 ip nat inside source static tcp 10.2.46.6 22 interface GigabitEthernet4 2226
 ip nat inside source static tcp 10.0.34.4 22 interface GigabitEthernet4 2224
