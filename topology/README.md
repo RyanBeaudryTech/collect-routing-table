@@ -87,7 +87,7 @@ ip access-list standard 1
 ---
 
 ## RADIUS and Remote Access Configuration
-
+<pre>
 aaa new-model
 aaa authentication login LOGIN group radius local
 
@@ -101,7 +101,7 @@ line vty 0 4
  privilege level 15
  login authentication LOGIN
  transport input ssh
-
+</pre>
 
 ### **How it integrates**
 - Each Cisco router is configured with:
